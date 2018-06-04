@@ -1,0 +1,5 @@
+{
+  "name": "react-native-gesture-handler-dom",
+  "private": true,
+  "main": "lib/RNGestureHandlerModule.js"
+}

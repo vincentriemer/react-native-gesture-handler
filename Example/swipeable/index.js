@@ -52,7 +52,7 @@ export default class Example extends Component {
 const styles = StyleSheet.create({
   rectButton: {
     flex: 1,
-    height: 80,
+    height: 100,
     paddingVertical: 10,
     paddingHorizontal: 20,
     justifyContent: 'space-between',

@@ -274,8 +274,7 @@ export default class Swipeable extends Component<PropType, StateType> {
         {renderLeftActions(this._showLeftAction, this._transX)}
         <View
           onLayout={({ nativeEvent }) =>
-            this.setState({ leftWidth: nativeEvent.layout.x })
-          }
+            this.setState({ leftWidth: nativeEvent.layout.x })}
         />
       </Animated.View>
     );
@@ -289,8 +288,7 @@ export default class Swipeable extends Component<PropType, StateType> {
         {renderRightActions(this._showRightAction, this._transX)}
         <View
           onLayout={({ nativeEvent }) =>
-            this.setState({ rightOffset: nativeEvent.layout.x })
-          }
+            this.setState({ rightOffset: nativeEvent.layout.x })}
         />
       </Animated.View>
     );

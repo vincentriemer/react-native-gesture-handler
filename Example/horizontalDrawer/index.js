@@ -114,6 +114,12 @@ export default class Example extends Component {
                     elevation: 100,
                     backgroundColor: '#000',
                   },
+                  default: {
+                    shadowColor: '#000',
+                    shadowOpacity: 0.5,
+                    shadowOffset: { width: 0, height: 2 },
+                    shadowRadius: 60,
+                  },
                 })
           }>
           <Page
